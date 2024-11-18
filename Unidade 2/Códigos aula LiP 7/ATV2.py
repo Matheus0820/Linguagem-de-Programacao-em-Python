@@ -7,11 +7,9 @@ for i in range(N):
 x = int(input())
 y = int(input())
 
-for i in range(0, N, 1):
-    print(i)
-    print(L1.__len__)
+for i in range(N-1, -1, -1):
     comprimento = 0
-    for elemento in L1[i]:
+    for elementos in L1[i]:
         comprimento += 1
     
     if comprimento == x or comprimento == y: 
